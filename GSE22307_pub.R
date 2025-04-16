@@ -1,4 +1,5 @@
-setwd("/Users/shivam/Desktop/experiments/Practice_GSE22307/")
+#set path to working directory
+#setwd("/Users/shivam/Desktop/experiments/Practice_GSE22307/")
 
 if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
 BiocManager::install(c("GEOquery", "limma"))
