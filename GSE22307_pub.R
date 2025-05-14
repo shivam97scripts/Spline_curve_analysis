@@ -83,7 +83,7 @@ Inf_dynamics<-function(g1){
               fill = "pink",
               se = TRUE)+
   theme_classic()+
-  annotate("text",x =6, y = 2.7, label = "Inflmmation gene expression", color = "red", hjust = 1)+
+  annotate("text",x =6, y = 2.7, label = "Inflammation gene expression", color = "red", hjust = 1)+
   annotate("text",x =6, y = 2.1, label = as.character(substitute(g1)), color = "darkgreen", hjust = 1)
 }
 
